@@ -114,6 +114,18 @@ main {
     border-bottom: $secondary-color 5px solid; 
 }
 
+.learn-more {
+    color: $secondary-color;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.job h6 {
+    color: $secondary-color;
+}
+
 // work page
 
 .projects {
@@ -159,6 +171,52 @@ main {
             }
         }
     }
+}
+
+// tree work page 
+
+.treework h1 {
+    font-size: 3rem;
+}
+
+.responsibility {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.responsibility li {
+    list-style: none;
+    line-height: 2;
+}
+
+.responsibility h4 {
+    color: $secondary-color;
+}
+
+.responsibility div {
+    width: 50vw;
+}
+
+.treework img {
+    width: 20rem;
+    border: 2px solid $secondary-color;
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+
+// tech page
+
+.tech h1 {
+    font-size: 3rem;
+}
+
+.box {
+    padding: 2rem;
+    border: 3px solid $secondary-color;
+    border-radius: 1rem;
+    margin: 1rem;
+    text-align: left;
+    line-height: 2;
 }
 
 // buttons 

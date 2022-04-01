@@ -181,6 +181,14 @@ main {
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid; }
 
+.learn-more {
+  color: #eece1a; }
+  .learn-more:hover {
+    text-decoration: underline; }
+
+.job h6 {
+  color: #eece1a; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -212,6 +220,40 @@ main {
       color: #000; }
       .boxes div:hover span {
         color: #000; }
+
+.treework h1 {
+  font-size: 3rem; }
+
+.responsibility {
+  display: flex;
+  justify-content: space-evenly; }
+
+.responsibility li {
+  list-style: none;
+  line-height: 2; }
+
+.responsibility h4 {
+  color: #eece1a; }
+
+.responsibility div {
+  width: 50vw; }
+
+.treework img {
+  width: 20rem;
+  border: 2px solid #eece1a;
+  border-radius: 1rem;
+  opacity: 0.9; }
+
+.tech h1 {
+  font-size: 3rem; }
+
+.box {
+  padding: 2rem;
+  border: 3px solid #eece1a;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-align: left;
+  line-height: 2; }
 
 .btn, .btn-dark, .btn-light {
   display: block;

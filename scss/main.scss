@@ -250,6 +250,42 @@ main {
     }
 }
 
+// teach page 
+
+.teach-grid {
+    display: grid;
+    grid-template-areas: 
+    'teach1 teach2 teach3'
+    'teach4 teach5 teach6'
+    'teach7 teach8 teach9'
+    'teach10 teach11 teach12'
+    'teach13 teach14 teach15';
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.photo {
+    width: 20rem;
+    height: 11rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+.text {
+    border: 2px solid $secondary-color;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 20rem;
+    height: 6rem;
+
+    &:hover {
+        background: lighten($primary-color, 9);
+        @include easeOut;
+    }
+
+}
+
 // buttons 
 
 .btn {

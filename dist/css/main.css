@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -55,7 +55,9 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait.jpeg);
+      background: url(../img/portfolio_shot.jpeg);
+      background-position: center center;
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -159,6 +161,7 @@ main {
 
 .bio-image {
   grid-area: bioimage;
+  width: 25rem;
   margin: auto;
   border-radius: 50%;
   border: solid 3px #eece1a; }

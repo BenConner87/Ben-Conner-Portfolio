@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/BenConner87/Portfolio2/issues"
   },
-  "homepage": "https://github.com/BenConner87/Portfolio2#readme",
+  "homepage": "https://github.com/BenConner87/Portfolio2/dist/index.html",
   "dependencies": {
     "node-sass": "^7.0.1"
   }
